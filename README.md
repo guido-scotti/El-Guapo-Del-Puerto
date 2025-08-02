@@ -18,8 +18,7 @@ The layout adjusts to different screen sizes for an optimal user experience on m
 
 ## 🚀 Live Preview
 
-[🔗 View Website](https://tuguithubusername.github.io/nombre-del-repo/)  
-*(replace with your actual GitHub Pages link if you deploy it)*
+[🔗 View Website](https://github.com/guido-scotti/El-Guapo-Del-Puerto)  
 
 ## 📁 Project Structure
 📁 proyect-landing/
