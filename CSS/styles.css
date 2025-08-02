@@ -9,18 +9,18 @@ body, html {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #f5f5f5; /* color claro para ver el logo negro */
+  background-color: #f5f5f5; 
   display: flex;
-  align-items: center; /* alineación vertical centrada */
-  justify-content: space-between; /* separa logo de nav */
+  align-items: center; 
+  justify-content: space-between; 
   padding: 10px 40px;
   z-index: 999;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-  height: 85px; /* ajustá según el tamaño que quieras */
-  margin: 0; /* evitá que se desplace */
+  height: 85px; 
+  margin: 0; 
 }
 
 .nav-links {
@@ -45,7 +45,7 @@ body, html {
 }
 
 .hero {
-  background-image: url('Images/Resto/fotofondolanding.jpg');
+  background-image: url("../Images/Resto/fotohero.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh; 
@@ -90,26 +90,27 @@ body, html {
     background-color: #d3d3d3;
 }
 
-.nosotros{
+.nosotros-section{
     text-align: center;
     background-color: #fffefc;
+    scroll-margin-top: 100px;
 }
 
-    .nosotros h1 {
+    .nosotros-section h1 {
     margin: 90px auto 20px;
     font-size: 50px;
     font-family: 'Playfair Display', serif;
     color: #000000;
     }
 
-    .nosotros h3 {
+    .nosotros-section h3 {
         margin: 40px auto 10px;
         font-size: 24px;
         font-family: 'Libre Baskerville', serif;
         color: #666666;
     }
 
-    .nosotros p {
+    .nosotros-section p {
         margin: 30px auto 30px;
         max-width: 800px;
         width: 80%;
