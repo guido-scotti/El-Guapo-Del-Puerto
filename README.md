@@ -38,4 +38,4 @@ The layout adjusts to different screen sizes for an optimal user experience on m
 To run this project locally, just clone the repository and open `index.html` in your browser.
 
 ```bash
-git clone https://github.com/tuUsuario/el-guapo-del-puerto.git
+git clone https://github.com/guido-scotti/El-Guapo-Del-Puerto.git
