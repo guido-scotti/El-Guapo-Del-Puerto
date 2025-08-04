@@ -323,16 +323,21 @@ button.next { right: 10px; }
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .nav-links {
     flex-direction: row;
-    gap: 5px;
+    gap: 10px;
     flex-wrap: wrap;
     margin-right: 0;
     justify-content: center;
   }
+
+  .nav-links a {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.5rem;
+    }
 
   .logo {
     height: 60px;
