@@ -322,12 +322,12 @@ button.next { right: 10px; }
 /* DISEÑO RESPONSIVE */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
     padding: 1rem;
   }
 
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     margin-right: 0;
   }
@@ -353,8 +353,8 @@ button.next { right: 10px; }
   }
 
   .carrusel {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
   }
 
   .carrusel-img {
