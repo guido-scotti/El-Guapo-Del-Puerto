@@ -323,11 +323,12 @@ button.next { right: 10px; }
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
-    padding: 1rem;
+    padding: 0.5rem;
   }
 
   .nav-links {
     flex-direction: row;
+    gap: 5px;
     flex-wrap: wrap;
     margin-right: 0;
     justify-content: center;
