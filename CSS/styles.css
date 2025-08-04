@@ -116,10 +116,10 @@ body, html {
     }
 
     .nosotros-section p {
-        margin: 30px auto 30px;
-        max-width: 800px;
+        margin: 1.875rem auto 1.875rem;
+        max-width: 50rem;
         width: 80%;
-        font-size: 17px;
+        font-size: 1.0625rem;
         font-weight: 600;
         font-family: 'Libre Baskerville', serif;
         color: #666666;
@@ -268,7 +268,8 @@ body, html {
   position: relative;
   width: 100%;
   max-width: 850px;
-  height: 800px;
+  height: 80vh;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   margin: auto;
   border: 2px solid black;
@@ -330,13 +331,12 @@ button.next { right: 10px; }
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
-    margin-right: 0;
     justify-content: center;
   }
 
   .nav-links a {
-      font-size: 0.9rem;
-      padding: 0.3rem 0.5rem;
+      font-size: 0.7rem; 
+      padding: 0.2rem 0.4rem;
     }
 
   .logo {
@@ -360,13 +360,14 @@ button.next { right: 10px; }
   }
 
   .carrusel {
-    width: auto;
-    height: 100%;
+    width: 80%;
+    height: 60vh;
   }
 
   .carrusel-img {
-    position: relative;
-    height: auto;
+    position: absolute;
+    object-fit: cover;
+    height: 60vh;
   }
 
   button.prev, button.next {
