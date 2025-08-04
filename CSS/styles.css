@@ -5,6 +5,7 @@ body, html {
   background-color: #fffefc;
 }
 
+/* NAVBAR*/ 
 .navbar {
   position: fixed;
   top: 0;
@@ -44,6 +45,7 @@ body, html {
   border-radius: 5px;
 }
 
+/* IMAGEN PRINCIPAL */
 .hero {
   background-image: url("../Images/Resto/fotohero.jpg");
   background-size: cover;
@@ -56,13 +58,14 @@ body, html {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 40px;
-  text-align: center;
-  border-radius: 10px;
-  font-family: 'Playfair Display', serif;
-}
+/* CUADRO CON TITULO PRINCIPAL */
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      text-align: center;
+      border-radius: 10px;
+      font-family: 'Playfair Display', serif;
+    }
 
     .hero h1 {
     font-size: 3rem;
@@ -76,20 +79,22 @@ body, html {
     font-family: 'Libre Baskerville', serif;
     }
 
-.hero-content {
-  background-color: rgba(255,255,255,0.85);
-  padding: 20px 40px;
-  border-radius: 10px;
-  text-align: center;
-  max-width: 80%;
-}
+    .hero-content {
+      background-color: rgba(255,255,255,0.85);
+      padding: 20px 40px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 80%;
+    }
 
+/* BORDE SEPARADOR DE SECCIONES */
 .borde{
     width: 100%;
     height: 3px;
     background-color: #d3d3d3;
 }
 
+/* ABOUT US SECCION */
 .nosotros-section{
     text-align: center;
     background-color: #fffefc;
@@ -120,100 +125,108 @@ body, html {
         color: #666666;
     }
 
+/* SECCION DE MENU */
 .menu-section {
   text-align: center;
   padding: 60px 20px;
   background-color: #fffefc;
 }
 
-.menu-section h1 {
-  font-size: 50px;
-  margin-bottom: 40px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  color: #000000;
-}
+    .menu-section h1 {
+      font-size: 50px;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: #000000;
+    }
 
-.menu-section h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  color: #666666;
-}
+    .menu-section h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 700;
+      color: #666666;
+    }
 
-.menu-carillas {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-  flex-wrap: wrap;
-  margin-bottom: 80px;
-}
+    .menu-carillas {
+      display: flex;
+      justify-content: center;
+      gap: 80px;
+      flex-wrap: wrap;
+      margin-bottom: 80px;
+    }
 
-.menu-carillas img {
-  max-width: 100%;
-  width: 650px;
-  height: auto;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  border-radius: 12px;
-}
+    .menu-carillas img {
+      max-width: 100%;
+      width: 650px;
+      height: auto;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      transition: transform 0.2s ease-in-out;
+    }
 
-.menu-carillas .desayuno {
-  justify-content: center;
-}
+    .menu-carillas img:hover{
+      transform: scale(1.03);
+    }
 
+    .menu-carillas .desayuno {
+      justify-content: center;
+    }
+
+/* SECCION DE RESEÑAS */
 .reseñas-section {
   text-align: center;
   padding: 60px 20px;
   background-color: #fffefc;
 }
 
-.reseñas-section h1 {
-  font-size: 50px;
-  margin-bottom: 40px;
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  color: #000000;
-}
+    .reseñas-section h1 {
+      font-size: 50px;
+      margin-bottom: 40px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: #000000;
+    }
 
-.reseñas-section h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 700;
-  color: #666666;
-}
+    .reseñas-section h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      font-family: 'Libre Baskerville', serif;
+      font-weight: 700;
+      color: #666666;
+    }
 
-.reseñas{
-  width: 700px;
-  background-color: #555;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  border-radius: 5px;
-  margin-top: 50px;
-}
+    .reseñas{
+      width: 700px;
+      background-color: #555;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 50px;
+    }
 
-.reseñas-texto{
-  color: #fff;
-  font-style: italic;
-  font-size: 18px;
-  margin-top: 5px;
-}
+    .reseñas-texto{
+      color: #fff;
+      font-style: italic;
+      font-size: 18px;
+      margin-top: 5px;
+    }
 
-.reseñas-img{
-  justify-content: left;
-  margin-top: 2px;
-  display: flex;
-}
+    .reseñas-img{
+      justify-content: left;
+      margin-top: 2px;
+      display: flex;
+    }
 
+/* SECCION DE CONTACTO */
 .contacto{
     text-align: center;
 }
 
     .contacto h2{
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
         color: #000000;
     }
 
@@ -242,3 +255,48 @@ body, html {
       margin-top: 20px;
     }
 
+/* SECCION DE DERECHOS */ 
+.derechos{
+  text-align: center;
+  color: #555;
+  font-size: smaller;
+}
+
+/* CARRUSEL DE FOTOS */
+.carrusel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carrusel-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.carrusel-img.active {
+  opacity: 1;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }

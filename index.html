@@ -3,6 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="Restaurante parrilla ubicado en el Puerto de Frutos, Tigre. Disfrutá de platos tradicionales, carnes a la parrilla y una experiencia única con vista al río.">
+  <meta name="keywords" content="parrilla, restaurante, Tigre, Puerto de Frutos, carne a la parrilla, comida argentina, vista al río, asado, platos tradicionales, gastronomía, almuerzo, cena, parrillada">
+  <meta name="author" content="Guido Scotti">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>El Guapo Del Puerto</title>
 
@@ -13,6 +16,8 @@
 
   <link rel="stylesheet" href="CSS/styles.css" />
 </head>
+
+<script src="main.js"></script>
 
 <body>
 
@@ -33,7 +38,7 @@
    <section id="top" class="hero">
     <div class="hero-overlay">
       <h1>EL GUAPO DEL PUERTO</h1>
-      <h3>Asador & Restaurante con vista al río en el corazón de Tigre</h3>
+      <h3>Parrilla & Restaurante con vista al río en el corazón de Tigre</h3>
     </div>
   </section>
 
@@ -48,7 +53,40 @@
     <p>En el corazón del Puerto de Frutos, El Guapo del Puerto combina la tradición de la parrilla argentina con una vista inigualable al río. 
       Terraza, deck de madera, salones vidriados y ambientación cálida hacen de cada comida un momento único.</p>
 
-    <h1> CARRUSEL DE FOTOS </h1>
+    <div class="carrusel">
+      <figure>
+        <img src="Images/Resto/fotoarribaesquina.jpg" class="carrusel-img active" />
+        <figcaption>Salón superior</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/Resto/fotoparri.jpg" class="carrusel-img" />
+        <figcaption>El asador en movimiento</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/Resto/fotofuego.jpg" class="carrusel-img" />
+        <figcaption>Nuestra deliciosa carne cocinándose a fuego lento</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/Resto/fotodeck.jpg" class="carrusel-img" />
+        <figcaption>El deck, al aire libre</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/Resto/fotorio.jpg" class="carrusel-img" />
+        <figcaption>Atardecer en nuestra terraza</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/Resto/fotomitad.jpg" class="carrusel-img" />
+        <figcaption>Las vistas desde El Guapo</figcaption>
+      </figure>
+      
+      <button class="prev">‹</button>
+      <button class="next">›</button>
+
+    </div>
+
+    <h1> LAS DELICIAS DEL GUAPO</h1>
+
+    <h3> CARRUSEL DE FOTOS </h3>
   </section>
 
   <!-- BORDE -->
@@ -79,9 +117,9 @@
 
   <!-- RESEÑAS -->
 <section id="reseñas" class="reseñas-section">
-  <h1>NUESTROS CLIENTES</h1>
+  <h1>CLIENTES FELICES</h1>
 
-  <h2>Lo que dicen nuestros clientes...</h2>
+  <h2>Lo que dicen nuestros comensales...</h2>
 
   <div class="reseñas">
     <img src="Images/Iconos/5stars.png" alt="Estrellas" width="120">
@@ -115,14 +153,14 @@
       <img src="Images/Iconos/iconoig.png" alt="Instagram" width="32">
     </a>
   </div>
-  
-  <div class="borde">
-  </div>
 
-  <h4> DERECHOS RESERVADOS </h4>
-  
 </section> 
 
+<section id="derechos" class="derechos">
+  <footer>
+    <p>&copy; 2025 El Guapo Del Puerto. Todos los derechos reservados.</p>
+  </footer>
+</section>
 
 </body>
 
