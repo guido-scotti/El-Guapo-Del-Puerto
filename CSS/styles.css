@@ -318,3 +318,52 @@ button.next {
 
 button.prev { left: 10px; }
 button.next { right: 10px; }
+
+/* DISEÑO RESPONSIVE */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h3 {
+    font-size: 1rem;
+  }
+
+  .menu-carillas img {
+    width: 100%;
+  }
+
+  .reseñas {
+    width: 90%;
+  }
+
+  .carrusel {
+    width: 100%;
+    height: auto;
+  }
+
+  .carrusel-img {
+    position: relative;
+    height: auto;
+  }
+
+  button.prev, button.next {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+}
