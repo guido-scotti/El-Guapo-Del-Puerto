@@ -421,4 +421,8 @@ body.modal-open {
     font-size: 1.5rem;
     padding: 5px;
   }
+
+  .cerrar{
+    margin-bottom: 0.4rem;
+  }
 }
