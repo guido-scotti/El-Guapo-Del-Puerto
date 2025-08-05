@@ -27,19 +27,25 @@ showImage(current);
   const modalImg = document.getElementById("img-ampliada");
   const cerrar = document.querySelector(".cerrar");
 
+  // ABRIR MODAL 
   document.querySelectorAll('.menu-carillas img').forEach(img => {
     img.addEventListener('click', () => {
       modal.style.display = "flex";
       modalImg.src = img.src;
+      document.body.classList.add("modal-open");
     });
   });
 
+  // SALIR DEL MODAL DESDE EL BOTON CERRAR
   cerrar.onclick = function() {
     modal.style.display = "none";
+    document.body.classList.remove("modal-open");
   }
 
+  // SALIR DEL MODAL TOCANDO FUERA DE LA IMAGEN
   modal.onclick = function(e) {
     if (e.target === modal) {
       modal.style.display = "none";
+      document.body.classList.remove("modal-open");
     }
   }
