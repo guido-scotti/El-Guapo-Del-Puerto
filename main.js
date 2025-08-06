@@ -22,7 +22,7 @@ prevBtn.addEventListener('click', () => {
 
 showImage(current);
 
-/// ---- AGRANDADO DE IMAGEN ----
+/// ---- AGRANDADO DE IMAGEN  ----
   const modal = document.getElementById("imagen-modal");
   const modalImg = document.getElementById("img-ampliada");
   const cerrar = document.querySelector(".cerrar");
@@ -48,4 +48,4 @@ showImage(current);
       modal.style.display = "none";
       document.body.classList.remove("modal-open");
     }
-  }
+  };
