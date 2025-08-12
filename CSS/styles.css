@@ -199,16 +199,23 @@ body, html {
 
     .reseñas{
       width: 700px;
-      background-color: #555;
+      background-color:#8A8A8A;
       margin-left: auto;
       margin-right: auto;
       padding: 20px;
-      border-radius: 5px;
+      border-radius: 8px;
+      border: 2px solid #545454;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
       margin-top: 50px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .reseñas:hover{
+      transform: scale(1.03);
     }
 
     .reseñas-texto{
-      color: #fff;
+      color: #FFFFFF;
       font-style: italic;
       font-size: 18px;
       margin-top: 5px;
@@ -223,6 +230,9 @@ body, html {
 /* SECCION DE CONTACTO */
 .contacto{
     text-align: center;
+    background-color: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
     .contacto h2{
@@ -265,11 +275,18 @@ body, html {
     }
 
 /* SECCION DE DERECHOS */ 
+.resaltado{
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
 .derechos{
   text-align: center;
-  color: #555;
+  color: #E6E6E6;
   font-size: smaller;
-  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #545454;
 }
 
 /* CARRUSEL DE FOTOS */
